@@ -52,7 +52,7 @@
                 var price = Math.round(total*10.0)/100.0; 
                 let value = price.toFixed(2); 
                 
-                total = Math.round((total+price)*100.0)/100.0;
+                total = Math.round((total - price)*100.0)/100.0;
                 document.write("Your discount price is: $" + value 
                                + " on your subtotal: $" + total  + "<br>"); 
             
