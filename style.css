@@ -1,0 +1,43 @@
+div {
+  
+  display: inline-block; 
+  text-align: center; 
+}
+
+body {
+    
+    
+    background-color: #EADDCA; 
+    font-size: 30px; 
+    text-align: center; 
+    color: #995F4C;
+    font-weight: bold; 
+}
+
+h1 {
+    
+    background-color: #E8AE02;
+    color: #CC2522;
+    font-size: 60px; 
+    text-align: center; 
+    
+    
+}
+
+@media screen and (max-width: 500px) {
+ .column {
+   width: 100%;
+ }
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;    
+    display: flex; flex-grow: 2; flex-direction: row; 
+    background-color: #D95A11; padding: 0.3rem;
+
+}
+
